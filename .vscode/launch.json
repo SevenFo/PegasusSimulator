@@ -1,6 +1,19 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "RESOURCE_NAME": "IsaacSim"
+            },
+            "python": "${workspaceFolder}/app/kit/python/bin/python3",
+            "envFile": "${workspaceFolder}/.vscode/.standalone_examples.env",
+            "preLaunchTask": "setup_python_env"
+        },
 		{
             "name": "Python: Attach (windows-x86_64/linux-x86_64)",
             "type": "python",

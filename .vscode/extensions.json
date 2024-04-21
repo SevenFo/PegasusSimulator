@@ -5,6 +5,8 @@
 		"ms-vscode.cpptools",
 		"ms-python.python",
 		"ms-python.vscode-pylance",
-		"bungcip.better-toml"
+		"ms-python.flake8",
+		"ms-python.black-formatter",
+		// "bungcip.better-toml"
 	],
 }
